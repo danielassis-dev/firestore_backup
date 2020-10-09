@@ -7,15 +7,11 @@ https://firebase.google.com/docs/admin/setup
 Then install it in your python environment:
 > pip install firebase-admin
 
-Install the Firestore module:
-> pip install google-cloud-core
-> pip install google-cloud-firestore
+Then install PyMongo in your python environment:
+> pip install pymongo
 
-(from https://stackoverflow.com/questions/48264536/importerror-failed-to-import-the-cloud-firestore-library-for-python)
 
 ## Backup script
-
-## Python Code
 	# -*- coding: UTF-8 -*-
 
 	import firebase_admin
@@ -61,8 +57,6 @@ Install the Firestore module:
 	input('Press [enter] to exit...')
 
 ## Upload script
-
-## Python Code
 	# -*- coding: UTF-8 -*-
 
 	import firebase_admin
